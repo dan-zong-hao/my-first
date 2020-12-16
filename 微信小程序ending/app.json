@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/clock/index",
+    "pages/todaysaohua/today",
+    "pages/other/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "we are 白给组",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/icons/home1.png",
+        "selectedIconPath": "pages/icons/home.png"
+      },
+      {
+        "pagePath": "pages/clock/index",
+        "text": "时钟",
+        "iconPath": "pages/icons/clock.png",
+        "selectedIconPath": "pages/icons/clock1.png"
+      },
+      {
+        "pagePath": "pages/other/index",
+        "text": "其他天气",
+        "iconPath": "pages/icons/tq.png",
+        "selectedIconPath": "pages/icons/tq1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,9 @@
+<!--pages/todaysaohua/today.js.wxml-->
+<view class="header">
+  今日份menhera酱表情包
+</view>
+<view class="img">
+  <image src='https://acg.yanwz.cn/menhera/api.php'>
+
+  </image>
+</view>

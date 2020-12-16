@@ -1,0 +1,16 @@
+.container {
+  height: 120%;
+  width: 100%;
+}
+
+canvas {
+  height: 100%;
+  width: 100%;
+}
+
+/*有些人会有疑问为什么设置了100%却没有100%，其实要到app.wxss里设置一下*/
+/**app.wxss**/
+page{
+  width:100%;
+  height:100%;
+}

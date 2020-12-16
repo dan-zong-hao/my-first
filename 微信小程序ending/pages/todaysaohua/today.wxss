@@ -1,0 +1,15 @@
+/* pages/todaysaohua/today.js.wxss */
+.img{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.img image{
+  width:592px;
+  height:300px
+}
+.header{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
