@@ -28,39 +28,11 @@ void loop() {
 
 
   for (int i = 0; i < sound; i++) {
-    if (i < 20) {
-      //第一节的三套
-      if (time % 2000 == 0) {
-        pixels.setPixelColor(i, pixels.Color(148, 0, 211));
-      } else if (time % 3000 == 0) {
-        pixels.setPixelColor(i, pixels.Color(139, 28, 98));
-      } else if (time % 5000 == 0) {
-        pixels.setPixelColor(i, pixels.Color(0, 255, 0));
-      } 
-    } else if (i >= 21 && i < 38) {
-      //第二节的三套
-      if (time % 2000 == 0) {
-        pixels.setPixelColor(i, pixels.Color(106, 90, 205));
-      } else if(time % 3000 == 0){
-        pixels.setPixelColor(i, pixels.Color(205, 41, 144));
-      } else if(time % 5000 == 0){
-        pixels.setPixelColor(i, pixels.Color(152， 251， 152));
-      }
-    } else if (i >= 39 && i < 56) {
-      pixels.setPixelColor(i, pixels.Color(0, 0, 205));
-    } else if (i >= 57 && i < 74) {
-      pixels.setPixelColor(i, pixels.Color(0, 0, 255));
-    } else if (i >= 75 && i < 92) {
-      pixels.setPixelColor(i, pixels.Color(30, 144, 255));
-    } else if (i >= 93 && i < 110) {
-      pixels.setPixelColor(i, pixels.Color(0, 191, 255));
-    } else if (i >= 111 && i < 128) {
-      pixels.setPixelColor(i, pixels.Color(0, 255, 255));
-    } else {
-      pixels.setPixelColor(i, pixels.Color(127, 255, 212));
-    }
+    pixels.setPixelColor(i, pixels.Color(148, 0, 211));
   }
-
+        
+    
+//这里面可以用if判断来设置每一段等待的颜色都可以自己定义，效果如视频所示，上网查找你喜欢的颜色的rgb值
 
 
   //点亮对应数量的灯珠
